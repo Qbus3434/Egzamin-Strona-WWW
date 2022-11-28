@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+.baner{
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.main{
+    background-color: seashell;
+    height: 500px;
+    overflow: hidden scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main h2{
+    padding: 20px;
+}
+
+.anna{
+    background-color: white;
+    color: dimgray;
+    width: 60%;
+    height: 220px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px 5px dimgray;
+    display: flex;
+}
+
+.anna img{
+    height: 180px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.text
+{
+    width: 100%;
+}
+
+.opinia{
+    text-align: justify;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.cytat{
+    padding: 40px;
+    font-size: 150%;
+    font-style: italic;
+    text-align: end;
+}
+
+h1 h2{
+    text-align: center;
+}
+
+h4{
+    text-align: right;
+}
+
+.footer{
+    background-color: tomato;
+    color: white;
+    display: flex;
+    height:max-content;
+    height: 160px;
+    padding: 20px 0;
+
+}
+
+.foot{
+    width: 25%;
+}
+
+.foot h3{
+    padding: 15px 0;
+}
+
+a {
+    color: white;
+}
